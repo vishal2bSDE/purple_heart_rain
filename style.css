@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: rgba(1, 4, 41, 0.479);
+}
+.heart{
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    animation: fall 4s linear forwards;
+}
+@keyframes fall{
+    to{
+        transform: translateY(105vh);
+    }
+}
